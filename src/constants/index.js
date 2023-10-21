@@ -14,15 +14,11 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  plessers,
+  esnd,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +38,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front End Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Next Js Developer",
+    icon: creator,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Full Stack Developer",
+    icon: backend,
   },
 ];
 
@@ -96,10 +92,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -108,63 +101,33 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Front End Developer",
+    company_name: "Essential Software & Design",
+    icon: esnd,
+    iconBg: "#fff",
+    date: "March 2022 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed significantly to the development of a SaaS-based website, utilizing React and Next.js combined with Redux for optimized state management and user experience.",
+      "Served as a key interface between frontend and backend teams, ensuring smooth collaboration and timely delivery of project milestones.",
+      "Played a vital role in integrating third-party APIs within a Node.js, ensuring seamless end-to-end functionality.",
+      "Worked closely with cross-functional teams, adeptly transforming design concepts into dynamic and interactive UIs, leveraging technologies like Bootstrap, and AWS serverless APIs.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front End Developer",
+    company_name: "Plesser's Appliances",
+    icon: plessers,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Undertook the complete transformation of plessers.com, revitalizing the older platform using contemporary web technologies as the sole Frontend Developer. Utilized React, Next.js, React Query, and NextAuth to ensure seamless user authentication and efficient data fetching.",
+      "Reimagined the UI using Tailwind CSS, achieving a modern, responsive design and ensuring an optimal user experience across diverse devices.",
+      "Oversaw the entire frontend development process, from conceptualizing the redesign based on Figma designs to the successful relaunch on October 12.",
+      "Leveraged Bitbucket for version control and code management, maintaining code consistency and streamlining potential collaborations.",
     ],
   },
 ];
