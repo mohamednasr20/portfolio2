@@ -109,7 +109,7 @@ const experiences = [
     company_name: "Essential Software & Design",
     icon: esnd,
     iconBg: "#fff",
-    date: "March 2022 - June 2022",
+    date: "March 2022 - April 2023",
     points: [
       "Contributed significantly to the development of a SaaS-based website, utilizing React and Next.js combined with Redux for optimized state management and user experience.",
       "Served as a key interface between frontend and backend teams, ensuring smooth collaboration and timely delivery of project milestones.",
@@ -122,7 +122,7 @@ const experiences = [
     company_name: "Plesser's Appliances",
     icon: plessers,
     iconBg: "#E6DEDD",
-    date: "Jun 2022 - Present",
+    date: "April 2023 - Present",
     points: [
       "Undertook the complete transformation of plessers.com, revitalizing the older platform using contemporary web technologies as the sole Frontend Developer. Utilized React, Next.js, React Query, and NextAuth to ensure seamless user authentication and efficient data fetching.",
       "Reimagined the UI using Tailwind CSS, achieving a modern, responsive design and ensuring an optimal user experience across diverse devices.",
